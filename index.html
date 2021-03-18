@@ -10,6 +10,8 @@
     <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
     <link rel="preload" as="font" href="assets/fonts/Inter-UI-upright.var.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="assets/fonts/Inter-UI.var.woff2" type="font/woff2" crossorigin="anonymous">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
   </head>
 
   <body data-smooth-scroll-offset="73">
@@ -63,7 +65,9 @@
                       </p>
                       <p>
                         <br />
-                          <a href="#" class="btn btn-lg btn-primary-2 text-white">Get In Touch</a>
+                        <!-- Calendly link widget begin -->
+                        <a href="" class="btn btn-lg btn-white" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/daedalus-voyage/free-introductory-call'});return false;">Schedule a free call</a>
+                        <!-- Calendly link widget end -->
                       </p>
                     </div>
                   </div>
@@ -509,8 +513,6 @@
                       <div class="position-relative d-flex flex-column flex-md-row justify-content-between align-items-center">
                         <div class="h3 text-center mb-md-0">Any questions before we start?</div>
                         <!-- Calendly link widget begin -->
-                        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
                         <a href="" class="btn btn-lg btn-white" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/daedalus-voyage/free-introductory-call'});return false;">Schedule a free call</a>
                         <!-- Calendly link widget end -->
                       </div>
@@ -656,7 +658,7 @@
 
     <noscript>Cookie Consent by <a href="https://www.FreePrivacyPolicy.com/free-cookie-consent/" rel="nofollow noopener">FreePrivacyPolicy.com</a></noscript>
     <!-- End Cookie Consent -->
-    
+
   </body>
 
 </html>
